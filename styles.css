@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-image: linear-gradient( #1d1144, #120e1f);
+  }
+  
+  .left-side {
+    display: flex;
+  }
+  
+  .nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+  
+  .active-nav-link a {
+    color: orange;
+  }
+  
+  .nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  
+  .nav-link-wrapper a:hover {
+    color:orange;
+  }
+  
+  .portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: linear-gradient(#120e1f, #1d1144);
+  }
+  
+  .portfolio-item-wrapper {
+    position: relative;
+    padding: 5px;
+
+  }
+
+  .portfolio-img-background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+  }
+
+  .img-text-wrapper{
+      position: absolute;
+      top: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      text-align: center;
+  }
+
+.img-animation{
+    transition: 0.5s;
+    opacity: 0;;
+}
+
+.two-column-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.profile-img-wrapper img{
+    width: 100%;
+
+}
+
+.profile-img-wrapper img:hover{
+  transition: 2s;
+  border-radius: 100px;
+}
+
+.profile-content-wrapper{
+    padding: 30px;
+    color: rgb(87, 24, 87);
+
+}
+
+.profile-content-wrapper h1{
+    color: orange;
+}
+
+
+
+.active-nav-link a{
+    color: orange;
+}
+
+.profile-img-wrapper{
+  padding: 30px;
+}
+
+
+
+.brand{
+  font-family: 'Righteous','Cursive';
+  color: orange;
+}
+
+.brand:hover{
+  font-weight: bold;
+  font-size: larger;
+}
+
+.content-wrapper{
+  background-color: #120e1f;
+}
+
+.about-content-wrapper{
+  height: 117.5%;
+  background-image: linear-gradient(#120e1f, #1d1144);
+}
+
+
+
+
+
+
+
+
